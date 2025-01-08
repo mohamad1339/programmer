@@ -7,8 +7,8 @@
   --black-color: #0e0f11;
   --orange-color: #d85927;
   --gray: #ffffffb3;
-  --white:#fff;
-  --darkgray:#a8a6a665;
+  --white: #fff;
+  --darkgray: #a8a6a665;
   --border: 5px;
 }
 ::selection {
@@ -841,7 +841,7 @@ header {
 .btn__link2 a {
   display: block;
   text-decoration: none;
-  color: var();
+  color: var(--white);
   width: 100%;
   top: 10px;
   left: 4px;
@@ -1909,7 +1909,6 @@ footer {
   }
   .project-box h2 {
     font-size: 2.5rem;
-  
   }
 }
 @media (max-width: 495px) {
@@ -1963,9 +1962,7 @@ footer {
 
 @media (max-width: 26.25rem) {
   .hero h1 {
-    color: #fff;
     font-size: 2.5rem;
-    font-weight: bolder;
   }
   .hero p {
     font-size: 1rem;
